@@ -1,8 +1,8 @@
-## These functions allow using cached values of the inverse of a square matrix
+## These functions allow using cached values for the inverse of a square matrix
 
 ## makeCacheMatrix sets up a matrix cache with four functions.
 ## 
-## For instance mat <- makeCacheMatrix(x) makes a matrix cache named mat,
+## For instance mat <- makeCacheMatrix(x) makes a matrix cache named mat
 ## with a cached matrix equal to the matrix x, and with four functions:
 ##
 ##    mat$set(x)    sets the cached matrix to the matrix x
